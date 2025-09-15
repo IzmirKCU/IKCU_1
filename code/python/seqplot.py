@@ -1,7 +1,6 @@
 from Bio import SeqIO
 import pandas as pd
 
-newfile = open("new.txt", "w")
 records = list(SeqIO.parse("/Users/simonray/uio_dropbox_sr/myTeaching/IKCU2/data/hairpin.fa", "fasta"))
 
 seqLens = []
